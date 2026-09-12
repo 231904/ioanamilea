@@ -6,10 +6,11 @@ permalink: /experience/
 
 # Experience
 
-Work history, most recent first.
+Work history, most recent first. Click an entry to expand it.
 
-## Software Engineering Intern — Company Name
-*Jun 2025 – Aug 2025*
+<details class="entry">
+<summary>Software Engineering Intern — Company Name (Jun 2025 – Aug 2025)</summary>
+<div class="entry-body" markdown="1">
 
 Placeholder description of the role.
 
@@ -19,8 +20,12 @@ Placeholder description of the role.
 
 `Python` `AWS` `PostgreSQL`
 
-## Teaching Assistant — University Name
-*Jan 2025 – present*
+</div>
+</details>
+
+<details class="entry">
+<summary>Teaching Assistant — University Name (Jan 2025 – present)</summary>
+<div class="entry-body" markdown="1">
 
 Placeholder description of the role.
 
@@ -29,9 +34,16 @@ Placeholder description of the role.
 
 `teaching` `C`
 
-## Research Assistant — Lab Name
-*Sep 2024 – Dec 2024*
+</div>
+</details>
+
+<details class="entry">
+<summary>Research Assistant — Lab Name (Sep 2024 – Dec 2024)</summary>
+<div class="entry-body" markdown="1">
 
 Placeholder description of the role.
 
 `research`
+
+</div>
+</details>
