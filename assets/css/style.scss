@@ -126,7 +126,7 @@ hr {
   border-radius: 2px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 300px) {
   .header-flex { flex-direction: column; }
   .header-right { order: -1; }
 }
