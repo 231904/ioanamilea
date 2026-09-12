@@ -41,7 +41,7 @@
       </section>
     </div>
 
-    {% if site.profile_image %}
+    {% if site.profile_image and page.url == '/' %}
     <div class="header-right">
       <img src="{{ site.profile_image | relative_url }}" alt="{{ site.title }}">
     </div>
