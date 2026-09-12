@@ -147,10 +147,9 @@ hr {
   min-width: 0;
 }
 .course-cat {
-  border: 1px solid var(--accent);
-  border-radius: 2px;
-  padding: 14px 16px;
-  background: rgba(206, 170, 250, 0.05);
+  border: none;
+  padding: 0;
+  background: none;
   overflow-wrap: break-word;
   word-break: break-word;
   font-size: 13px;
