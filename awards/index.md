@@ -1,11 +1,5 @@
 
 
----
-layout: default
-title: Awards
-permalink: /awards/
----
-
 # Awards
 
 Honors, scholarships, competition results.
