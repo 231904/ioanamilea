@@ -179,6 +179,35 @@ hr {
   }
 }
 
+/* ---------- Awards: text column + images column, equal width ---------- */
+.awards-grid {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+.awards-col {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.awards-images {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.awards-images img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--accent);
+  border-radius: 2px;
+  display: block;
+}
+@media (max-width: 700px) {
+  .awards-grid {
+    flex-direction: column;
+  }
+}
+
 
 /* ---------- Images inserted into page content ---------- */
 #main_content img {
