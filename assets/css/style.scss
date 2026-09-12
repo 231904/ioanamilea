@@ -1,0 +1,117 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ===================================================================
+   Custom overrides — colors, glow removal, link styling
+   Loaded AFTER the theme's own styles, so these rules win.
+   =================================================================== */
+
+:root {
+  --bg: #381573;
+  --accent: #8155C9;
+  --text: #F7DE8D;
+}
+
+html, body {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+/* Remove the theme's neon text-shadow / glow effects wherever they appear */
+h1, h2, h3, h4, h5, h6,
+#a-title, #a-title h1,
+.site-title,
+a {
+  text-shadow: none !important;
+}
+
+/* Headings: use the accent purple instead of neon green, no glow */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--accent) !important;
+}
+
+/* Remove any ">>" / arrow prefix markers the theme adds before headings */
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before,
+h1::after,  h2::after,  h3::after,  h4::after,  h5::after,  h6::after {
+  content: none !important;
+}
+
+/* Body text and links */
+body, p, li, td, th {
+  color: var(--text);
+}
+
+a {
+  color: var(--accent) !important;
+}
+a:hover {
+  color: var(--text) !important;
+}
+
+/* Header / title area */
+header, header .container {
+  background-color: var(--bg) !important;
+}
+header h1, header h2, #a-title, #a-title h1 {
+  color: var(--accent) !important;
+}
+
+/* Inline code / tag-like backticks used for skill tags */
+code {
+  background: rgba(129, 85, 201, 0.15);
+  color: var(--text);
+  border: 1px solid var(--accent);
+  padding: 1px 6px;
+  border-radius: 2px;
+}
+
+/* ---------- Nav bar (About / Coursework / Experience / etc.) ---------- */
+#site-nav { margin: 12px 0 4px; }
+#site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 2px; }
+#site-nav li a {
+  display: inline-block;
+  padding: 6px 12px;
+  text-decoration: none;
+  border: 1px solid var(--accent);
+  font-family: monospace;
+  font-size: 13px;
+}
+#site-nav li a {
+  color: var(--accent) !important;
+}
+#site-nav li a:hover,
+#site-nav li.current a {
+  background: rgba(129, 85, 201, 0.15) !important;
+  color: var(--text) !important;
+  border-color: var(--accent) !important;
+}
+
+/* ---------- CV / LinkedIn / GitHub: same visual treatment as the nav items ---------- */
+#downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 2px;
+  margin-top: 8px;
+}
+#downloads .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  background: none !important;
+  border: 1px solid var(--accent) !important;
+  border-radius: 0 !important;
+  color: var(--accent) !important;
+  font-family: monospace;
+  font-size: 13px;
+  text-decoration: none;
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+#downloads .btn:hover {
+  background: rgba(129, 85, 201, 0.15) !important;
+  color: var(--text) !important;
+}
+#downloads .btn .icon {
+  display: none;
+}
