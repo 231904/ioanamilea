@@ -18,7 +18,7 @@
 with a project on quantum simulations using a VQE-like algorithm
 
 **International Fyziklani competition**  — First place (2022) -
-team based international competition, our team won an Erasmus scholarship for us and another romanian team due to previous results at the online version of the contest. The other team won the first place in their age category
+team based international competition, our team won an Erasmus scholarship due to previous results at the online version of the contest. The other team won the first place in their age category
 
 
 **Romanian Science and Engineering Fair** — Silver (2021, 2022), Bronze (2020)
