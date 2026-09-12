@@ -11,7 +11,7 @@
 :root {
   --bg: #1e0c3d;       /* dark version of #381573 */
   --accent: #CEAAFA;
-  --text: #DCF7B7;
+  --text: #B6D692;
 }
 
 /* The theme sets background: <color> url(bkg.png) on body — this overrides
@@ -26,6 +26,18 @@ html {
 
 /* Remove the "./ " prefix the theme adds before the site title in the header */
 header h1:before {
+  content: none !important;
+}
+
+/* Nuke any pseudo-element content anywhere in the header/nav — belt and
+   suspenders against stray glyphs (e.g. ">>") coming from the theme's own
+   compiled CSS that we haven't been able to pin down by selector name */
+header *::before,
+header *::after,
+#site-nav *::before,
+#site-nav *::after,
+#main_content *:not(summary)::before,
+#main_content *:not(summary)::after {
   content: none !important;
 }
 
@@ -86,11 +98,68 @@ hr {
   color: var(--accent) !important;
 }
 
-/* ---------- Nav bar (About / Coursework / Experience / etc.) ---------- */
+/* ---------- Images inserted into page content ---------- */
+#main_content img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--accent);
+  border-radius: 2px;
+  margin: 12px 0;
+  display: block;
+}
+#main_content img + em,
+#main_content figcaption {
+  display: block;
+  color: var(--text);
+  opacity: 0.7;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 16px;
+}
+
+/* ---------- Expandable entries (Experience / Projects) ---------- */
+details.entry {
+  border: 1px solid var(--accent);
+  border-radius: 2px;
+  padding: 10px 14px;
+  margin: 0 0 12px 0;
+  background: rgba(206, 170, 250, 0.05);
+}
+details.entry summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: bold;
+  font-family: monospace;
+  list-style: none;
+  outline: none;
+}
+details.entry summary::-webkit-details-marker {
+  display: none;
+}
+details.entry summary::before {
+  content: "+ " !important;
+  color: var(--accent);
+}
+details.entry[open] summary::before {
+  content: "− " !important;
+}
+details.entry .entry-body {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--accent);
+}
 #site-nav { margin: 12px 0 4px; }
-#site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 2px; }
+#site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: fit-content;
+}
 #site-nav li a {
-  display: inline-block;
+  display: block;
   padding: 6px 12px;
   text-decoration: none;
   border: 1px solid var(--accent);
