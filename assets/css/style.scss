@@ -10,8 +10,8 @@
 
 :root {
   --bg: #1e0c3d;       /* dark version of #381573 */
-  --accent: #8155C9;
-  --text: #F7DE8D;
+  --accent: #CEAAFA;
+  --text: #DCF7B7;
 }
 
 /* The theme sets background: <color> url(bkg.png) on body — this overrides
@@ -70,7 +70,7 @@ header h2 {
 
 /* Inline code / tag-like backticks used for skill tags */
 code, code.highlighter-rouge {
-  background: rgba(129, 85, 201, 0.15) !important;
+  background: rgba(206, 170, 250, 0.15) !important;
   color: var(--text) !important;
   border: 1px solid var(--accent) !important;
   padding: 1px 6px;
@@ -101,7 +101,7 @@ hr {
 }
 #site-nav li a:hover,
 #site-nav li.current a {
-  background: rgba(129, 85, 201, 0.15) !important;
+  background: rgba(206, 170, 250, 0.15) !important;
   color: var(--text) !important;
   border-color: var(--accent) !important;
 }
@@ -129,7 +129,7 @@ hr {
   box-shadow: none !important;
 }
 #downloads .btn:hover {
-  background: rgba(129, 85, 201, 0.15) !important;
+  background: rgba(206, 170, 250, 0.15) !important;
   color: var(--text) !important;
 }
 #downloads .btn .icon {
