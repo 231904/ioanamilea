@@ -98,6 +98,35 @@ hr {
   color: var(--accent) !important;
 }
 
+/* ---------- Header two-column layout: nav/title on left, photo on right ---------- */
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.header-left {
+  flex: 1 1 320px;
+  min-width: 0;
+}
+.header-right {
+  flex: 0 0 auto;
+}
+.header-right img {
+  display: block;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 1px solid var(--accent);
+  border-radius: 2px;
+}
+@media (max-width: 700px) {
+  .header-flex { flex-direction: column; }
+  .header-right { order: -1; }
+  .header-right img { width: 120px; height: 120px; }
+}
+
 /* ---------- Images inserted into page content ---------- */
 #main_content img {
   max-width: 100%;
