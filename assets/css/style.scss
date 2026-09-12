@@ -9,20 +9,29 @@
    =================================================================== */
 
 :root {
-  --bg: #381573;
+  --bg: #1e0c3d;       /* dark version of #381573 */
   --accent: #8155C9;
   --text: #F7DE8D;
 }
 
-html, body {
-  background-color: var(--bg) !important;
+/* The theme sets background: <color> url(bkg.png) on body — this overrides
+   the whole shorthand so the tiled background image is removed too */
+body {
+  background: var(--bg) !important;
   color: var(--text) !important;
+}
+html {
+  background: var(--bg) !important;
+}
+
+/* Remove the "./ " prefix the theme adds before the site title in the header */
+header h1:before {
+  content: none !important;
 }
 
 /* Remove the theme's neon text-shadow / glow effects wherever they appear */
 h1, h2, h3, h4, h5, h6,
 #a-title, #a-title h1,
-.site-title,
 a {
   text-shadow: none !important;
 }
@@ -32,14 +41,8 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--accent) !important;
 }
 
-/* Remove any ">>" / arrow prefix markers the theme adds before headings */
-h1::before, h2::before, h3::before, h4::before, h5::before, h6::before,
-h1::after,  h2::after,  h3::after,  h4::after,  h5::after,  h6::after {
-  content: none !important;
-}
-
 /* Body text and links */
-body, p, li, td, th {
+body, p, li, td, th, dt, dd {
   color: var(--text);
 }
 
@@ -50,21 +53,37 @@ a:hover {
   color: var(--text) !important;
 }
 
-/* Header / title area */
-header, header .container {
-  background-color: var(--bg) !important;
+/* Header / title area — theme sets header { background: rgba(0,0,0,0.1) },
+   which lets the body background bleed through with a dark tint; override
+   so it matches the dark bg exactly */
+header {
+  background: var(--bg) !important;
+  border-bottom-color: var(--accent) !important;
 }
 header h1, header h2, #a-title, #a-title h1 {
   color: var(--accent) !important;
 }
+header h2 {
+  color: var(--text) !important;
+  opacity: 0.8;
+}
 
 /* Inline code / tag-like backticks used for skill tags */
-code {
-  background: rgba(129, 85, 201, 0.15);
-  color: var(--text);
-  border: 1px solid var(--accent);
+code, code.highlighter-rouge {
+  background: rgba(129, 85, 201, 0.15) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--accent) !important;
   padding: 1px 6px;
   border-radius: 2px;
+}
+
+/* table headers / hr — theme hardcodes a lime-green (#b5e853) accent */
+th {
+  border-bottom-color: var(--accent) !important;
+}
+hr {
+  border-bottom-color: var(--accent) !important;
+  color: var(--accent) !important;
 }
 
 /* ---------- Nav bar (About / Coursework / Experience / etc.) ---------- */
@@ -77,9 +96,8 @@ code {
   border: 1px solid var(--accent);
   font-family: monospace;
   font-size: 13px;
-}
-#site-nav li a {
   color: var(--accent) !important;
+  text-shadow: none !important;
 }
 #site-nav li a:hover,
 #site-nav li.current a {
@@ -88,7 +106,8 @@ code {
   border-color: var(--accent) !important;
 }
 
-/* ---------- CV / LinkedIn / GitHub: same visual treatment as the nav items ---------- */
+/* ---------- CV / LinkedIn / GitHub: same visual treatment as the nav items,
+   fully overriding the theme's pill-shaped gradient .btn style ---------- */
 #downloads {
   display: flex;
   flex-wrap: wrap;
@@ -97,13 +116,14 @@ code {
 }
 #downloads .btn {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 6px 12px !important;
   background: none !important;
   border: 1px solid var(--accent) !important;
   border-radius: 0 !important;
   color: var(--accent) !important;
-  font-family: monospace;
-  font-size: 13px;
+  font-family: monospace !important;
+  font-weight: normal !important;
+  font-size: 13px !important;
   text-decoration: none;
   text-shadow: none !important;
   box-shadow: none !important;
@@ -113,5 +133,5 @@ code {
   color: var(--text) !important;
 }
 #downloads .btn .icon {
-  display: none;
+  display: none !important;
 }
