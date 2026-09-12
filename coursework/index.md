@@ -15,9 +15,11 @@ Relevant classes, grouped by category.
 <div class="course-cat" markdown="1">
 ## Physics
 
-**Placeholder Course Name** — Fall 2025
-Placeholder description — what the course covered.
-`core`
+Experimental physics I (mechanics)
+
+Experimental physics II (electromagnetism)
+
+Basic labs I-III
 
 **Placeholder Course Name** — Spring 2026
 Placeholder description — what the course covered.
