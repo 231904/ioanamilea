@@ -7,15 +7,11 @@ permalink: /awards/
 # Awards
 
 Honors, scholarships, competition results.
+**Deutschlandstipendium** 2025
+**Romanian National Mathematics Olympiad ** — Bronze (2023)
+**Romanian National Physics Olympiad ** — Silver (2021, 2022), Bronze (2023)
+**Romanian National Scientific Creativity Olympiad ** — Gold, first place (2023) 
+with a project on quantum simulations using a VQE-like algorithm
+**Romanian Science and Engineering Fair** — Silver (2021, 2022), Bronze (2020)
 
-**Award Name One** — 2026
-Placeholder description — who gave it, and why.
 
-**Hackathon — 1st Place** — 2025
-Placeholder description of the event and what you built.
-
-**Dean's List** — 2024–2025
-Placeholder description.
-
-**Scholarship Name** — 2024
-Placeholder description of the scholarship and its basis.
