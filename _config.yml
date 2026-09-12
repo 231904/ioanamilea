@@ -1,5 +1,5 @@
-title: Your Name Here
-description: Field / Degree placeholder — e.g. Computer Science, BSc
+title: Ioana Milea
+description: BSc Physics, MSc Mathematics in Science and Engineering
 
 # Required since this site is published as a project-repo page at
 # 231904.github.io/ioanamilea rather than at the domain root.
@@ -18,7 +18,7 @@ linkedin_url: "https://www.linkedin.com/in/ioana-milea-14934b299/"
 cv_url: "/cv.pdf"
 email: "ioana.alexandra.milea@gmail.com"
 profile_image: "/assets/8691.jpg"
-profile_image_size: "18vw"
+profile_image_size: "30vw"
 
 nav:
   - title: About
