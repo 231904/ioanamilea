@@ -1,9 +1,5 @@
 
 
-# Awards
-
-Honors, scholarships, competition results.
-
 <div class="awards-grid">
 
 <div class="awards-col" markdown="1">
