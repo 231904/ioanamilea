@@ -9,7 +9,7 @@ permalink: /experience/
 My work history :)
 
 <details class="entry">
-<summary>Student assistant (data science) — TUM/German Geodetic Research Institute (Nov 2025 – ongoing)</summary>
+<summary>Student Assistant (data science) — TUM/German Geodetic Research Institute (Nov 2025 – ongoing)</summary>
 <div class="entry-body" markdown="1">
 
 I help with various data-centered tasks. 
