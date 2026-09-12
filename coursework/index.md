@@ -60,6 +60,13 @@ Relevant classes, grouped by category.
 - Group Theory in Physics
 </div>
 
+<div class="course-cat" markdown="1">
+## CS-related
+- Introduction to Neural Networks for Physicists
+- Introduction to Deep Learning
+- Parallel computing for physical processes
+</div>
+
 </div>
 
 </div>
