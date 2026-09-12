@@ -13,6 +13,6 @@ Since then, I've spent my undergraduate degree as an exploration field: I initia
 I am open to exploring industry and research opportunities to further strengthen my computational abilities and explore what one can do with strong fundamentals.
 
 
-- **Skills:** Python · C++ · Mathematica · Pytorch · Qiskit · Git · Linux · MS Office
+- **Skills:** Python · C++ · Mathematica · Pytorch · CUDA · SLURM · Qiskit · Git · Linux · MS Office
 
 
