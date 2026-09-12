@@ -134,16 +134,16 @@ hr {
 
 /* ---------- Coursework: 2-column category grid ---------- */
 .course-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   gap: 24px;
-  align-items: start;
+  align-items: flex-start;
   margin-top: 16px;
 }
 .course-col {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  flex: 1 1 0;
   min-width: 0;
 }
 .course-cat {
