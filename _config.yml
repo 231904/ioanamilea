@@ -1,0 +1,36 @@
+title: Your Name Here
+description: Field / Degree placeholder — e.g. Computer Science, BSc
+
+# Required since this site is published as a project-repo page at
+# 231904.github.io/ioanamilea rather than at the domain root.
+# Must match your repo name exactly, including the leading slash.
+baseurl: "/ioanamilea"
+
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+show_downloads: false
+
+# Used by the custom nav in _layouts/default.html — edit these to your real links
+github_username: 231904
+linkedin_url: "https://www.linkedin.com/in/ioana-milea-14934b299/"
+cv_url: "/cv.pdf"
+email: "ioana.alexandra.milea@gmail.com"
+
+
+nav:
+  - title: About
+    url: /
+  - title: Coursework
+    url: /coursework/
+  - title: Experience
+    url: /experience/
+  - title: Projects
+    url: /projects/
+  - title: Awards
+    url: /awards/
+  - title: Volunteering
+    url: /volunteering/
+  - title: Contact
+    url: /contact/
