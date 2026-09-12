@@ -125,18 +125,10 @@ hr {
   border: 1px solid var(--accent);
   border-radius: 2px;
 }
-.header-right img {
-  display: block;
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border: 1px solid var(--accent);
-  border-radius: 2px;
-}
-@media (max-width: 700px) {
+
+@media (max-width: 70000px) {
   .header-flex { flex-direction: column; }
   .header-right { order: -1; }
-  .header-right img { width: 120px; height: 120px; }
 }
 
 /* ---------- Images inserted into page content ---------- */
