@@ -117,7 +117,7 @@ hr {
   display: block;
   /* Percentage of the viewport width — scales naturally with any screen
      size, with a floor/ceiling so it never gets too small or too large */
-  width: {{ site.profile_image_size | default: "18vw" }};
+  width: {{ site.profile_image_size | default: "30vw" }};
   aspect-ratio: 1 / 1;
   max-width: 6000px;
   min-width: 90px;
@@ -126,7 +126,7 @@ hr {
   border-radius: 2px;
 }
 
-@media (max-width: 70000px) {
+@media (max-width: 700px) {
   .header-flex { flex-direction: column; }
   .header-right { order: -1; }
 }
