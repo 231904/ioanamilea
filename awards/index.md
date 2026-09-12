@@ -42,7 +42,7 @@ team based international competition, our team won an Erasmus scholarship for us
 
 <!-- Upload your images to /assets/ and reference them below.
      Add or remove <img> lines as needed — each one stacks in this column. -->
-<img src="/assets/award1.jpg" alt="Award photo">
+<img src="/assets/olympiad1.png" alt="Award photo">
 <img src="/assets/award2.jpg" alt="Award photo">
 
 </div>
