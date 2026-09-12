@@ -6,7 +6,7 @@ permalink: /experience/
 
 # Experience
 
-Work history, most recent first. Click an entry to expand it.
+My work history :)
 
 <details class="entry">
 <summary>Student assistant (data science) — TUM/German Geodetic Research Institute (Nov 2025 – ongoing)</summary>
@@ -25,9 +25,21 @@ I help with various data-centered tasks.
 </details>
 
 <details class="entry">
-<summary>Teaching Assistant & Instructor — AwesomeMath (Jun 2023 – Aug 2025)</summary>
+<summary> Consultant — Wolfram Institute (Apr 2026 – May 2026)</summary>
 <div class="entry-body" markdown="1">
 
+- NDA
+
+`Mathematica` `(hyper)graph theory` 
+
+</div>
+</details>
+
+
+<details class="entry">
+<summary>Teaching Assistant & Instructor — AwesomeMath (Jun 2023 – Aug 2025)</summary>
+<div class="entry-body" markdown="1">
+- Founded by former coach of the US IMO team Dr. Titu Andreescu, AwesomeMath offers intensive summer programs for students preparing for Mathematics Olympiads.
 - Started as a teaching assistant, where I took personalised notes on each student, graded homework and tests and provided individual feedback, office hours;
 - Got promoted to the instructor role after 2 years of experience, where I was given the opportunity to teach courses myself;
 - Courses: Abstract algebra, Algebra I, III, Number theory III, Geometry II, III.
