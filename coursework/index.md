@@ -8,20 +8,7 @@ permalink: /coursework/
 
 Relevant classes, grouped by category.
 
-
-
-
 <div class="course-grid">
-
-<div class="course-cat" markdown="1">
-## Mathematics
-
-- Linear Algebra
-- Analysis I-III
-- Markov Chains
-- Abstract Algebra
-</div>
-
 
 <div class="course-col">
 
@@ -47,6 +34,13 @@ Relevant classes, grouped by category.
 - Advanced Labs (Lithium-Ion Batteries, MOSFET, (Non)Linear waves in plasma, Computer-supported Particle Physics, Protein Folding, Femtoscopy)
 </div>
 
+<div class="course-cat" markdown="1">
+## Mathematics
+- Linear Algebra
+- Analysis I-III
+- Markov Chains
+- Abstract Algebra
+</div>
 
 </div>
 
