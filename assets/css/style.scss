@@ -115,6 +115,18 @@ hr {
 }
 .header-right img {
   display: block;
+  /* Percentage of the viewport width — scales naturally with any screen
+     size, with a floor/ceiling so it never gets too small or too large */
+  width: {{ site.profile_image_size | default: "18vw" }};
+  aspect-ratio: 1 / 1;
+  max-width: 600px;
+  min-width: 90px;
+  object-fit: cover;
+  border: 1px solid var(--accent);
+  border-radius: 2px;
+}
+.header-right img {
+  display: block;
   width: 180px;
   height: 180px;
   object-fit: cover;
