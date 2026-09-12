@@ -44,7 +44,7 @@ Relevant classes, grouped by category.
 - Nuclear, Particle and Astrophysics I
 - Chemistry for Physicists
 - Basic Labs I-III
-- Advanced Labs (Lithium-Ion Batteries, MOSFET, (Non)Linear waves in plasma, Computer-supported Particle Physics, Protein Folding, Femtoscopy
+- Advanced Labs (Lithium-Ion Batteries, MOSFET, (Non)Linear waves in plasma, Computer-supported Particle Physics, Protein Folding, Femtoscopy)
 </div>
 
 
@@ -54,16 +54,16 @@ Relevant classes, grouped by category.
 
 <div class="course-cat" markdown="1">
 ## Economics
-- Econophysics (time-series analysis, stochastic processes, Options, risk management)
+- Econophysics (time-series analysis, stochastic processes, options, risk management)
 </div>
 
 <div class="course-cat" markdown="1">
 ## Mathematical Physics
-Mathematical Physics I (functional, operator theory)
-Mathematical Physics II (probability theory, quantum information theory, differential topology)
-Algebraic Topology in Physics
-Differential Forms in Physics
-Group Theory in Physics
+- Mathematical Physics I (functional, operator theory)
+- Mathematical Physics II (probability theory, quantum information theory, differential topology)
+- Algebraic Topology in Physics
+- Differential Forms in Physics
+- Group Theory in Physics
 </div>
 
 </div>
