@@ -1,8 +1,18 @@
+
+
 ---
 layout: default
 title: Awards
 permalink: /awards/
 ---
+
+# Awards
+
+Honors, scholarships, competition results.
+
+<div class="awards-grid">
+
+<div class="awards-col" markdown="1">
 
 # Awards
 
@@ -22,5 +32,23 @@ team based international competition, our team won an Erasmus scholarship for us
 
 
 **Romanian Science and Engineering Fair** — Silver (2021, 2022), Bronze (2020)
+
+
+
+
+</div>
+
+<div class="awards-col awards-images">
+
+<!-- Upload your images to /assets/ and reference them below.
+     Add or remove <img> lines as needed — each one stacks in this column. -->
+<img src="/assets/award1.jpg" alt="Award photo">
+<img src="/assets/award2.jpg" alt="Award photo">
+
+</div>
+
+</div>
+
+
 
 
