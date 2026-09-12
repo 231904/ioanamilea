@@ -9,41 +9,42 @@ permalink: /experience/
 Work history, most recent first. Click an entry to expand it.
 
 <details class="entry">
-<summary>Software Engineering Intern — Company Name (Jun 2025 – Aug 2025)</summary>
+<summary>Student assistant (data science) — TUM/German Geodetic Research Institute (Nov 2025 – ongoing)</summary>
 <div class="entry-body" markdown="1">
 
-Placeholder description of the role.
+I help with various data-centered tasks. 
 
-- Placeholder bullet — what you built or shipped.
-- Placeholder bullet — impact or metric, if you have one.
-- Placeholder bullet — a tool or technique you used.
+- Automated the collection and organisation of various satellite data;
+- Implemented models for identifying the plasmasphere from total electron content (TEC) data;
+- Extracted information about geomagnetic storms from TEC data;
+- Signal processing - eliminate measuremt etc. artifacts.
 
-`Python` `AWS` `PostgreSQL`
+`Python` `data modelling` 
 
 </div>
 </details>
 
 <details class="entry">
-<summary>Teaching Assistant — University Name (Jan 2025 – present)</summary>
+<summary>Teaching Assistant & Instructor — AwesomeMath (Jun 2023 – Aug 2025)</summary>
 <div class="entry-body" markdown="1">
 
-Placeholder description of the role.
+- Started as a teaching assistant, where I took personalised notes on each student, graded homework and tests and provided individual feedback, office hours;
+- Got promoted to the instructor role after 2 years of experience, where I was given the opportunity to teach courses myself;
+- Courses: Abstract algebra, Algebra I, III, Number theory III, Geometry II, III.
 
-- Placeholder bullet — sections led, students supported, etc.
-- Placeholder bullet.
-
-`teaching` `C`
+`teaching` `mathematics` `communication`
 
 </div>
 </details>
 
 <details class="entry">
-<summary>Research Assistant — Lab Name (Sep 2024 – Dec 2024)</summary>
+<summary>Research Assistant — TUM/Professorship of Quantum Communication Systems Engineering (Jul 2024 – Jul 2025)</summary>
 <div class="entry-body" markdown="1">
-
-Placeholder description of the role.
-
-`research`
+My project was focused on processing images of bidimensional boron nitride crystals, used for single-photon sources.
+  
+- Worked with specialised software for preprocessing images from different types of measurements;
+- Conducted literature research on the topic of precise image segmentation and implemented some models for our problem setting for thickness and area estimation;
+- `gwyddion` `ImageJ` `Python` `OpenCV` `ML`
 
 </div>
 </details>
