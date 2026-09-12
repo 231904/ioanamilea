@@ -8,6 +8,11 @@ permalink: /coursework/
 
 Relevant classes, grouped by category.
 
+
+
+
+<div class="course-grid">
+
 <div class="course-cat" markdown="1">
 ## Mathematics
 
@@ -18,10 +23,6 @@ Relevant classes, grouped by category.
 - 
 </div>
 
-
-
-
-<div class="course-grid">
 
 <div class="course-col">
 
