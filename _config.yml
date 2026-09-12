@@ -18,6 +18,7 @@ linkedin_url: "https://www.linkedin.com/in/ioana-milea-14934b299/"
 cv_url: "/cv.pdf"
 email: "ioana.alexandra.milea@gmail.com"
 profile_image: "/assets/8691.jpg"
+profile_image_size: "18vw"
 
 nav:
   - title: About
