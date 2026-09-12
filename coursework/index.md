@@ -20,7 +20,6 @@ Relevant classes, grouped by category.
 - Analysis I-III
 - Markov Chains
 - Abstract Algebra
-- 
 </div>
 
 
@@ -55,14 +54,16 @@ Relevant classes, grouped by category.
 
 <div class="course-cat" markdown="1">
 ## Economics
-- Econophysics
+- Econophysics (time-series analysis, stochastic processes, Options, risk management)
 </div>
 
 <div class="course-cat" markdown="1">
 ## Mathematical Physics
-
-- Placeholder Course Name — Spring 2026
-- Placeholder Course Name — Fall 2026
+Mathematical Physics I (functional, operator theory)
+Mathematical Physics II (probability theory, quantum information theory, differential topology)
+Algebraic Topology in Physics
+Differential Forms in Physics
+Group Theory in Physics
 </div>
 
 </div>
