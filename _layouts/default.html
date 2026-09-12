@@ -10,34 +10,42 @@
 </head>
 <body>
 <header>
-  <div class="container">
-    <a id="a-title" href="{{ '/' | relative_url }}">
-      <h1>{{ site.title | default: site.github.repository_name }}</h1>
-    </a>
-    <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+  <div class="container header-flex">
+    <div class="header-left">
+      <a id="a-title" href="{{ '/' | relative_url }}">
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+      </a>
+      <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
-    <!-- custom nav: added so the theme supports multiple pages, not just one -->
-    <nav id="site-nav">
-      <ul>
-        {% for item in site.nav %}
-        <li{% if page.url == item.url %} class="current"{% endif %}>
-          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </nav>
+      <!-- custom nav: added so the theme supports multiple pages, not just one -->
+      <nav id="site-nav">
+        <ul>
+          {% for item in site.nav %}
+          <li{% if page.url == item.url %} class="current"{% endif %}>
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
 
-    <section id="downloads">
-      {% if site.show_downloads %}
-      <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-      <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-      {% endif %}
-      <a href="https://github.com/{{ site.github_username }}" class="btn" target="_blank" rel="noopener">GitHub</a>
-      {% if site.linkedin_url and site.linkedin_url != "#" %}
-      <a href="{{ site.linkedin_url }}" class="btn" target="_blank" rel="noopener">LinkedIn</a>
-      {% endif %}
-      <a href="{{ site.cv_url | relative_url }}" class="btn" target="_blank" rel="noopener">CV</a>
-    </section>
+      <section id="downloads">
+        {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
+        {% endif %}
+        <a href="https://github.com/{{ site.github_username }}" class="btn" target="_blank" rel="noopener">GitHub</a>
+        {% if site.linkedin_url and site.linkedin_url != "#" %}
+        <a href="{{ site.linkedin_url }}" class="btn" target="_blank" rel="noopener">LinkedIn</a>
+        {% endif %}
+        <a href="{{ site.cv_url | relative_url }}" class="btn" target="_blank" rel="noopener">CV</a>
+      </section>
+    </div>
+
+    {% if site.profile_image %}
+    <div class="header-right">
+      <img src="{{ site.profile_image | relative_url }}" alt="{{ site.title }}">
+    </div>
+    {% endif %}
   </div>
 </header>
 <div class="container">
