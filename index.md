@@ -6,7 +6,7 @@ title: About
 # whoami
 
 <!-- Example of inserting a photo: upload it to /assets/ and reference it like this -->
-<!-- ![A short description of the photo](/assets/photo.jpg) -->
+![A short description of the photo](/assets/8691.jpg) -->
 
 **Your Name Here** — Field / Degree placeholder (e.g. Computer Science, BSc)
 City, Country
