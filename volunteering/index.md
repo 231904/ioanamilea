@@ -8,7 +8,7 @@ permalink: /volunteering/
 
 Community and outreach work.
 
-## Coding Mentor — Organization Name
+### Coding Mentor — Organization Name
 *2025 – present*
 Placeholder description — who you mentored and what it involved.
 
