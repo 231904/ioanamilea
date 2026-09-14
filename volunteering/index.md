@@ -13,7 +13,7 @@ I led the offerings department for two semesters (SoSe 24, WiSe 25).
 I was invited by the Romanian Space Initiative to hold a workshop on particle physics, consisting of a talk on the CMB spectrum and performing a cloud chamber experiment. 
 
 ### Champions United volunteer *Sept 2024*
-CU is an initiative aiming to bring together the highest-performing students in Romania, regardless of field, in a week-long summer camp filled with both with activities aimed at personal development, as well as team-building games and competitions. I was one of the 10 volunteers in 2024 and we were responsible of basically all that needs to be taken care of during such an event. 
+CU is an initiative aiming to bring together the highest-performing students in Romania, regardless of field, in a week-long summer camp filled with both with activities aimed at personal development, as well as team-building games and competitions. I was one of the 10 volunteers in 2024 and we were responsible for basically all that needs to be taken care of during such an event. 
 
 ### Mentoring *Sept 2023 – Sept 2024*
 During my first year of university, I was in touch with my previous high school's science fair club and offered mentorship and advice in developing and choosing projects. The team has been listed in the [100 young people for Romania's development](https://fundatiadanvoiculescu.ro/echipa-multitouch-din-satu-mare-pioniera-transdisciplinaritatii-in-educatia-romaneasca-inscrisa-in-campania-100-de-tineri-pentru-dezvoltarea-romaniei/ ) catalogue.
