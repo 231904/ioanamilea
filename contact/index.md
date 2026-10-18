@@ -14,4 +14,4 @@ Reach out through any of these.
 | **GitHub** | [github.com/{{ site.github_username }}](https://github.com/{{ site.github_username }}) |
 | **LinkedIn** | [{{ site.linkedin_url }}]({{ site.linkedin_url }}) |
 | **CV** | [Download CV]({{ site.cv_url | relative_url }}) |
-| **Location** | City, Country |
+| **Location** | Munich, Germany |
