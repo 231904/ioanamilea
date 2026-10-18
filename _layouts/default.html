@@ -1,57 +1,56 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
-<meta charset='utf-8'>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-{% include head-custom.html %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 {% seo %}
 </head>
 <body>
-<header>
-  <div class="container header-flex">
-    <div class="header-left">
-      <a id="a-title" href="{{ '/' | relative_url }}">
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-      </a>
-      <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
-      <!-- custom nav: added so the theme supports multiple pages, not just one -->
-      <nav id="site-nav">
-        <ul>
-          {% for item in site.nav %}
-          <li{% if page.url == item.url %} class="current"{% endif %}>
-            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </nav>
-
-      <section id="downloads">
-        {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-        {% endif %}
-        <a href="https://github.com/{{ site.github_username }}" class="btn" target="_blank" rel="noopener">GitHub</a>
-        {% if site.linkedin_url and site.linkedin_url != "#" %}
-        <a href="{{ site.linkedin_url }}" class="btn" target="_blank" rel="noopener">LinkedIn</a>
-        {% endif %}
-        <a href="{{ site.cv_url | relative_url }}" class="btn" target="_blank" rel="noopener">CV</a>
-      </section>
+<header class="site-header">
+  <div class="wrap header-row">
+    <div>
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      {% if site.description %}<p class="site-tagline">{{ site.description }}</p>{% endif %}
     </div>
-
-    {% if site.profile_image and page.url == '/' %}
-    <div class="header-right">
-      <img src="{{ site.profile_image | relative_url }}" alt="{{ site.title }}">
-    </div>
-    {% endif %}
+    <nav class="site-nav" aria-label="Site navigation">
+      <ul>
+        {% for item in site.nav %}
+        <li{% if page.url == item.url %} class="current"{% endif %}>
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
   </div>
 </header>
-<div class="container">
-  <section id="main_content">
-    {{ content }}
-  </section>
-</div>
+
+<main class="wrap page" id="main_content">
+  {% if page.url == '/' and site.profile_image %}
+  <div class="home-grid">
+    <div class="home-text">{{ content }}</div>
+    <div class="home-photo">
+      <img src="{{ site.profile_image | relative_url }}" alt="{{ site.title }}">
+    </div>
+  </div>
+  {% else %}
+  {{ content }}
+  {% endif %}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+    {% if site.linkedin_url and site.linkedin_url != "#" %}
+    <a href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a>
+    {% endif %}
+    <a href="{{ site.cv_url | relative_url }}" target="_blank" rel="noopener">CV</a>
+  </div>
+</footer>
+
 </body>
 </html>
