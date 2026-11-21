@@ -9,7 +9,7 @@ permalink: /experience/
 Work history
 
 <details class="entry">
-<summary> Research Assistant — TUM/Theoretical Particle and Nuclear Physics (T30f group (Nov 2026 – ongoing)</summary>
+<summary> Research Assistant — TUM/Theoretical Particle and Nuclear Physics (T30f group) (Nov 2026 – ongoing)</summary>
 <div class="entry-body" markdown="1">
 
 - Follow-up work of my Bachelor's thesis on neural networks for lattice QCD. Optimising training scripts for memory and time constraints.
