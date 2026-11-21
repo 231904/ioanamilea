@@ -6,7 +6,19 @@ permalink: /experience/
 
 # Experience
 
-My work history :)
+Work history
+
+<details class="entry">
+<summary> Research Assistant — TUM/Theoretical Particle and Physics (Jul 2024 – Jul 2025)</summary>
+<div class="entry-body" markdown="1">
+
+- Follow-up work of my Bachelor's thesis on neural networks for lattice QCD. Optimising training scripts for memory and time constraints.
+- Exploring models for extracting the finite-temperature static potential from the optimised correlator. 
+
+`PyTorch` `HPC` `ML` `SLURM`  
+
+</div>
+</details>
 
 <details class="entry">
 <summary>Student Assistant (data science) — TUM/German Geodetic Research Institute (Nov 2025 – ongoing)</summary>
@@ -14,12 +26,12 @@ My work history :)
 
 I help with various data-centered tasks. 
 
-- Automated the collection and organisation of various satellite data;
-- Implemented models for identifying the plasmasphere from total electron content (TEC) data;
-- Extracted information about geomagnetic storms from TEC data;
-- Signal processing - eliminate measuremt etc. artifacts.
+- Automated the collection and organisation of various satellite data.
+- Implemented models for identifying the plasmasphere from total electron content (TEC) data.
+- Extracted information about geomagnetic storms from TEC data.
+- Signal processing - eliminated measurement artifacts.
 
-`Python` `data modelling` 
+`Python` `data modeling` 
 
 </div>
 </details>
@@ -52,10 +64,10 @@ I help with various data-centered tasks.
 <details class="entry">
 <summary>Research Assistant — TUM/Professorship of Quantum Communication Systems Engineering (Jul 2024 – Jul 2025)</summary>
 <div class="entry-body" markdown="1">
-My project was focused on processing images of bidimensional boron nitride crystals, used for single-photon sources.
+My project was focused on processing images of bidimensional boron nitride crystals, used for generating single-photon sources with applications in quantum communication protocols. Their parameters influence the spectrum of emission.
   
-- Worked with specialised software for preprocessing images from different types of measurements;
-- Conducted literature research on the topic of precise image segmentation and implemented some models for our problem setting for thickness and area estimation;
+- Worked with specialised software for preprocessing images from different types of measurements.
+- Conducted literature research on the topic of precise image segmentation and implemented models for our problem setting for thickness and area estimation.
 - `gwyddion` `ImageJ` `Python` `OpenCV` `ML`
 
 </div>
