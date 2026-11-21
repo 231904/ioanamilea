@@ -9,7 +9,7 @@ permalink: /experience/
 Work history
 
 <details class="entry">
-<summary> Research Assistant — TUM/Theoretical Particle and Physics (Jul 2024 – Jul 2025)</summary>
+<summary> Research Assistant — TUM/Theoretical Particle and Nuclear Physics (T30f group (Nov 2026 – ongoing)</summary>
 <div class="entry-body" markdown="1">
 
 - Follow-up work of my Bachelor's thesis on neural networks for lattice QCD. Optimising training scripts for memory and time constraints.
@@ -21,7 +21,7 @@ Work history
 </details>
 
 <details class="entry">
-<summary>Student Assistant (data science) — TUM/German Geodetic Research Institute (Nov 2025 – ongoing)</summary>
+<summary> Student Assistant (data science) — TUM/German Geodetic Research Institute (Nov 2025 – ongoing)</summary>
 <div class="entry-body" markdown="1">
 
 I help with various data-centered tasks. 
@@ -49,7 +49,7 @@ I help with various data-centered tasks.
 
 
 <details class="entry">
-<summary>Teaching Assistant & Instructor — AwesomeMath (Jun 2023 – Aug 2025)</summary>
+<summary> Teaching Assistant & Instructor — AwesomeMath (Jun 2023 – Aug 2025)</summary>
 <div class="entry-body" markdown="1">
 - Founded by former coach of the US IMO team Dr. Titu Andreescu, AwesomeMath offers intensive summer programs for students preparing for Mathematics Olympiads.
 - Started as a teaching assistant, where I took personalised notes on each student, graded homework and tests and provided individual feedback, office hours;
@@ -62,7 +62,7 @@ I help with various data-centered tasks.
 </details>
 
 <details class="entry">
-<summary>Research Assistant — TUM/Professorship of Quantum Communication Systems Engineering (Jul 2024 – Jul 2025)</summary>
+<summary> Research Assistant — TUM/Professorship of Quantum Communication Systems Engineering (Jul 2024 – Jul 2025)</summary>
 <div class="entry-body" markdown="1">
 My project was focused on processing images of bidimensional boron nitride crystals, used for generating single-photon sources with applications in quantum communication protocols. Their parameters influence the spectrum of emission.
   
