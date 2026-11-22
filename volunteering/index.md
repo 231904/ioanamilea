@@ -203,22 +203,22 @@ Community and outreach work. Click a banner to read more.
 <div class="vol-grid">
 <article class="vol-card">
 <div class="vol-img"><img src="{{ '/assets/vol1.jpg' | relative_url }}" alt="Describe this photo" loading="lazy"></div>
-<button type="button" class="vol-banner" aria-haspopup="dialog"><span class="vol-text"><span class="vol-title">Coding Mentor</span><span class="vol-period">2025 – present</span></span><span class="vol-plus" aria-hidden="true">+</span></button>
+<button type="button" class="vol-banner" aria-haspopup="dialog"><span class="vol-text"><span class="vol-title">Book author</span><span class="vol-period">2024</span></span><span class="vol-plus" aria-hidden="true">+</span></button>
 <div class="vol-desc" hidden>
-<p>Placeholder description. Who you worked with, what you did, and what you learned from it.</p>
-<p>Add as many paragraphs as you like, or a bullet list.</p>
+<p>I authored "Isomorphisms - art, science, nature", the kind of pop-science book I would have wanted to read when I was younger. All royalties are donated to Trees for the Future, an NGO partnering with farmers across Africa to restore degraded land and unlock prosperity through regenerative farming.</p>
+<p>The book guides the reader through a journey through different natural settings, bringing together cultural references, both Romanian and international, together with scientific facts, wrapped in a storytelling setting. In the second part, different essays on topics that came across in the first part aim to deepen the newly developed view on the relationship between the scientific and artistic way of thinking, from nonlinear dynamics to the mechanistic view of the human body. </p>
 </div>
 </article>
 <article class="vol-card">
 <div class="vol-img"><img src="{{ '/assets/vol2.jpg' | relative_url }}" alt="Describe this photo" loading="lazy"></div>
-<button type="button" class="vol-banner" aria-haspopup="dialog"><span class="vol-text"><span class="vol-title">Event Volunteer</span><span class="vol-period">2024</span></span><span class="vol-plus" aria-hidden="true">+</span></button>
+<button type="button" class="vol-banner" aria-haspopup="dialog"><span class="vol-text"><span class="vol-title">PushQuantum member and dept. co-lead </span><span class="vol-period">Apr. 2024 - Feb. 2026 </span></span><span class="vol-plus" aria-hidden="true">+</span></button>
 <div class="vol-desc" hidden>
 <p>Placeholder description of the event and your role.</p>
 </div>
 </article>
 <article class="vol-card">
 <div class="vol-img"><img src="{{ '/assets/vol3.jpg' | relative_url }}" alt="Describe this photo" loading="lazy"></div>
-<button type="button" class="vol-banner" aria-haspopup="dialog"><span class="vol-text"><span class="vol-title">Outreach Lead</span><span class="vol-period">2023 – 2024</span></span><span class="vol-plus" aria-hidden="true">+</span></button>
+<button type="button" class="vol-banner" aria-haspopup="dialog"><span class="vol-text"><span class="vol-title">Champions United volunteer </span><span class="vol-period"> Sept. 2024</span></span><span class="vol-plus" aria-hidden="true">+</span></button>
 <div class="vol-desc" hidden>
 <p>Placeholder description of the initiatives you ran.</p>
 <ul>
@@ -229,7 +229,7 @@ Community and outreach work. Click a banner to read more.
 </article>
 <article class="vol-card">
 <div class="vol-img"><img src="{{ '/assets/vol4.jpg' | relative_url }}" alt="Describe this photo" loading="lazy"></div>
-<button type="button" class="vol-banner" aria-haspopup="dialog"><span class="vol-text"><span class="vol-title">Outreach Lead</span><span class="vol-period">2023 – 2024</span></span><span class="vol-plus" aria-hidden="true">+</span></button>
+<button type="button" class="vol-banner" aria-haspopup="dialog"><span class="vol-text"><span class="vol-title">Particle Physics workshop</span><span class="vol-period">Mar. 2025</span></span><span class="vol-plus" aria-hidden="true">+</span></button>
 <div class="vol-desc" hidden>
 <p>Placeholder description of the initiatives you ran.</p>
 <ul>
