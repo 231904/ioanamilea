@@ -227,6 +227,17 @@ Community and outreach work. Click a banner to read more.
 </ul>
 </div>
 </article>
+<article class="vol-card">
+<div class="vol-img"><img src="{{ '/assets/vol4.jpg' | relative_url }}" alt="Describe this photo" loading="lazy"></div>
+<button type="button" class="vol-banner" aria-haspopup="dialog"><span class="vol-text"><span class="vol-title">Outreach Lead</span><span class="vol-period">2023 – 2024</span></span><span class="vol-plus" aria-hidden="true">+</span></button>
+<div class="vol-desc" hidden>
+<p>Placeholder description of the initiatives you ran.</p>
+<ul>
+<li>A first thing you did</li>
+<li>A second thing you did</li>
+</ul>
+</div>
+</article>
 </div>
 
 <script>
